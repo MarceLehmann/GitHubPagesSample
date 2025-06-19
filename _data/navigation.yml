@@ -1,0 +1,43 @@
+# Navigation links
+main:
+  - title: "Home"
+    url: /
+  - title: "Showcase"
+    url: /showcase/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+# Sidebar navigation example
+showcase_nav:
+  - title: "Visual Elements"
+    children:
+      - title: "Typography"
+        url: /showcase/#typography
+      - title: "Buttons"
+        url: /showcase/#buttons
+      - title: "Notice Boxes"
+        url: /showcase/#notice-boxes
+      - title: "Feature Rows"
+        url: /showcase/#feature-rows
+      - title: "Galleries"
+        url: /showcase/#galleries
+      - title: "Tables"
+        url: /showcase/#tables
+      - title: "Forms"
+        url: /showcase/#forms
+  - title: "Layouts"
+    children:
+      - title: "Single"
+        url: /showcase/#single-layout
+      - title: "Splash"
+        url: /showcase/#splash-layout
+      - title: "Archive"
+        url: /showcase/#archive-layout
