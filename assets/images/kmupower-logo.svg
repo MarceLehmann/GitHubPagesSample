@@ -1,0 +1,103 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define colors used in the logo -->
+    <style>
+      .logo-dark { fill: #2c3e50; }
+      .logo-teal { fill: #4ecdc4; }
+      .logo-stroke { stroke: #2c3e50; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .logo-fill-white { fill: #ffffff; }
+    </style>
+  </defs>
+  
+  <!-- Yoda-like character -->
+  <g transform="translate(200, 80)">
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="45" ry="55" class="logo-fill-white"/>
+    <ellipse cx="0" cy="0" rx="45" ry="55" class="logo-stroke"/>
+    
+    <!-- Left ear -->
+    <ellipse cx="-35" cy="-25" rx="15" ry="30" transform="rotate(-25 -35 -25)" class="logo-fill-white"/>
+    <ellipse cx="-35" cy="-25" rx="15" ry="30" transform="rotate(-25 -35 -25)" class="logo-stroke"/>
+    
+    <!-- Right ear -->
+    <ellipse cx="35" cy="-25" rx="15" ry="30" transform="rotate(25 35 -25)" class="logo-fill-white"/>
+    <ellipse cx="35" cy="-25" rx="15" ry="30" transform="rotate(25 35 -25)" class="logo-stroke"/>
+    
+    <!-- Face wrinkles/lines -->
+    <path d="M -20 -10 Q -15 -5 -20 0" class="logo-stroke" stroke-width="2"/>
+    <path d="M 20 -10 Q 15 -5 20 0" class="logo-stroke" stroke-width="2"/>
+    <path d="M -15 10 Q -8 15 -15 20" class="logo-stroke" stroke-width="2"/>
+    <path d="M 15 10 Q 8 15 15 20" class="logo-stroke" stroke-width="2"/>
+    
+    <!-- Hood/robe over head -->
+    <path d="M -50 5 Q -30 -45 0 -50 Q 30 -45 50 5 Q 40 10 30 15 Q 0 20 -30 15 Q -40 10 -50 5" class="logo-fill-white"/>
+    <path d="M -50 5 Q -30 -45 0 -50 Q 30 -45 50 5 Q 40 10 30 15 Q 0 20 -30 15 Q -40 10 -50 5" class="logo-stroke"/>
+    
+    <!-- Body/robe -->
+    <ellipse cx="0" cy="80" rx="60" ry="45" class="logo-fill-white"/>
+    <ellipse cx="0" cy="80" rx="60" ry="45" class="logo-stroke"/>
+    
+    <!-- Robe folds/details -->
+    <path d="M -30 50 Q -20 65 -30 80 Q -20 95 -30 110" class="logo-stroke" stroke-width="2"/>
+    <path d="M 0 50 Q 10 65 0 80 Q 10 95 0 110" class="logo-stroke" stroke-width="2"/>
+    <path d="M 30 50 Q 20 65 30 80 Q 20 95 30 110" class="logo-stroke" stroke-width="2"/>
+    
+    <!-- Arms -->
+    <!-- Left arm -->
+    <ellipse cx="-45" cy="65" rx="12" ry="25" transform="rotate(-15 -45 65)" class="logo-fill-white"/>
+    <ellipse cx="-45" cy="65" rx="12" ry="25" transform="rotate(-15 -45 65)" class="logo-stroke"/>
+    
+    <!-- Right arm holding puzzle piece -->
+    <ellipse cx="45" cy="65" rx="12" ry="25" transform="rotate(15 45 65)" class="logo-fill-white"/>
+    <ellipse cx="45" cy="65" rx="12" ry="25" transform="rotate(15 45 65)" class="logo-stroke"/>
+    
+    <!-- Right hand -->
+    <circle cx="55" cy="85" r="8" class="logo-fill-white"/>
+    <circle cx="55" cy="85" r="8" class="logo-stroke"/>
+    
+    <!-- Sitting base -->
+    <ellipse cx="0" cy="125" rx="65" ry="15" class="logo-fill-white"/>
+    <ellipse cx="0" cy="125" rx="65" ry="15" class="logo-stroke"/>
+  </g>
+  
+  <!-- Puzzle piece -->
+  <g transform="translate(320, 60)">
+    <!-- Main puzzle piece body -->
+    <rect x="0" y="0" width="40" height="40" rx="3" class="logo-teal"/>
+    
+    <!-- Top knob (protruding) -->
+    <circle cx="20" cy="0" r="8" class="logo-teal"/>
+    
+    <!-- Right side indentation -->
+    <circle cx="40" cy="15" r="6" class="logo-fill-white"/>
+    
+    <!-- Bottom knob (protruding) -->
+    <circle cx="25" cy="40" r="6" class="logo-teal"/>
+    
+    <!-- Left side knob (protruding) -->
+    <circle cx="0" cy="25" r="6" class="logo-teal"/>
+  </g>
+  
+  <!-- Text: KMU -->
+  <g transform="translate(60, 220)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="72" font-weight="bold" class="logo-dark">KMU</text>
+  </g>
+  
+  <!-- Text: power -->
+  <g transform="translate(220, 220)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="72" font-weight="300" class="logo-teal">power</text>
+  </g>
+  
+  <!-- Optional: Add subtle shadow/depth -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.1)"/>
+    </filter>
+  </defs>
+  
+  <!-- Apply shadow to main character -->
+  <style>
+    .with-shadow { filter: url(#shadow); }
+  </style>
+</svg>
