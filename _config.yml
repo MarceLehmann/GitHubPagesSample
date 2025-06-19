@@ -14,9 +14,8 @@ title_separator: "-"
 subtitle: "Vollständige Übersicht aller visuellen Elemente"
 name: "Jekyll Showcase"
 description: "Eine umfassende Demonstrationsseite für alle verfügbaren visuellen Komponenten und Elemente des Jekyll Minimal Mistakes Themes."
-url: "https://username.github.io" # Replace with your actual GitHub Pages URL
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "username/username.github.io" # Replace with your GitHub username/repo
+url: "https://marcelehmann.github.io/" # Replace with your actual GitHub Pages URL
+baseurl: "GitHubPagesSample/" # the subpath of your site, e.g. "/blog"
 teaser: "/assets/images/teaser-default.jpg"
 logo: "/assets/images/logo.png"
 masthead_title: "MM Showcase"
