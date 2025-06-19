@@ -6,7 +6,7 @@ author_profile: true
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/about-header.jpg
+  overlay_image: /assets/images/about-header.svg
 ---
 
 ## Was ist diese Showcase?

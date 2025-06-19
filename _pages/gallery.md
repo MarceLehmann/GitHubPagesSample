@@ -43,12 +43,12 @@ gallery_grid:
     image_path: /assets/images/grid-2-th.svg
     alt: "Grid 2"
     title: "Grid Layout Beispiel 2"
-  - url: /assets/images/grid-3.jpg
-    image_path: /assets/images/grid-3-th.jpg
+  - url: /assets/images/grid-3.svg
+    image_path: /assets/images/grid-3-th.svg
     alt: "Grid 3"
     title: "Grid Layout Beispiel 3"
-  - url: /assets/images/grid-4.jpg
-    image_path: /assets/images/grid-4-th.jpg
+  - url: /assets/images/grid-4.svg
+    image_path: /assets/images/grid-4-th.svg
     alt: "Grid 4"
     title: "Grid Layout Beispiel 4"
 ---
@@ -71,7 +71,7 @@ Das Jekyll Minimal Mistakes Theme bietet verschiedene Gallery-Layouts für die o
 
 ## Einzelne Figure mit Popup
 
-{% include figure image_path="/assets/images/single-large.jpg" alt="Einzelbild" caption="Einzelnes Bild mit Popup-Funktionalität." popup=true %}
+{% include figure image_path="/assets/images/single-large.svg" alt="Einzelbild" caption="Einzelnes Bild mit Popup-Funktionalität." popup=true %}
 
 ## Video in Gallery
 

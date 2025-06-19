@@ -9,7 +9,7 @@ tags:
   - pages
   - design
 header:
-  teaser: /assets/images/layouts-teaser.jpg
+  teaser: /assets/images/layouts-teaser.svg
   overlay_color: "#333"
   overlay_filter: 0.3
 toc: true
@@ -47,7 +47,7 @@ Das **Landing-Page Layout** für Hero-Bereiche:
 ---
 layout: splash
 header:
-  overlay_image: /path/to/image.jpg
+  overlay_image: /assets/images/splash-bg.svg
   overlay_filter: 0.5
 ---
 ```
@@ -79,7 +79,7 @@ Verschiedene **Übersichts-Layouts**:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/header.jpg
+  overlay_image: /assets/images/header.svg
   actions:
     - label: "Button Text"
       url: "/link/"

@@ -10,39 +10,39 @@ sidebar:
 header:
   overlay_color: "#333"
   overlay_filter: "0.4"
-  overlay_image: /assets/images/showcase-header.jpg
+  overlay_image: /assets/images/showcase-header.svg
   caption: "Alle Minimal Mistakes Komponenten auf einen Blick"
 
 gallery:
-  - url: /assets/images/gallery-1.jpg
-    image_path: /assets/images/gallery-1-th.jpg
+  - url: /assets/images/gallery-1.svg
+    image_path: /assets/images/gallery-1-th.svg
     alt: "Beispiel Gallery Bild 1"
     title: "Gallery Bild 1"
-  - url: /assets/images/gallery-2.jpg
-    image_path: /assets/images/gallery-2-th.jpg
+  - url: /assets/images/gallery-2.svg
+    image_path: /assets/images/gallery-2-th.svg
     alt: "Beispiel Gallery Bild 2"
     title: "Gallery Bild 2"
-  - url: /assets/images/gallery-3.jpg
-    image_path: /assets/images/gallery-3-th.jpg
+  - url: /assets/images/gallery-3.svg
+    image_path: /assets/images/gallery-3-th.svg
     alt: "Beispiel Gallery Bild 3"
     title: "Gallery Bild 3"
 
 feature_row_demo:
-  - image_path: /assets/images/demo-feature-1.jpg
+  - image_path: /assets/images/demo-feature-1.svg
     alt: "Feature 1"
     title: "Erste Feature"
     excerpt: "Dies ist eine **Beispiel-Feature** mit Text und Bild."
     url: "#"
     btn_label: "Mehr erfahren"
     btn_class: "btn--primary"
-  - image_path: /assets/images/demo-feature-2.jpg
+  - image_path: /assets/images/demo-feature-2.svg
     alt: "Feature 2"
     title: "Zweite Feature"
     excerpt: "Noch eine Feature mit *kursivem Text* und Button."
     url: "#"
     btn_label: "Details"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/demo-feature-3.jpg
+  - image_path: /assets/images/demo-feature-3.svg
     alt: "Feature 3"
     title: "Dritte Feature"
     excerpt: "Letzte Feature mit `Code-Text` und Link."
@@ -152,23 +152,23 @@ Das ist ein <mark>anderer hervorgehobener Text</mark> mit HTML.
 
 ### Einfaches Bild
 
-![Beispiel Bild](/assets/images/example.jpg)
+![Beispiel Bild](/assets/images/example.svg)
 
 ### Bild mit Ausrichtung
 
-![Left Aligned Image](/assets/images/example-left.jpg){: .align-left}
+![Left Aligned Image](/assets/images/example-left.svg){: .align-left}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst. Fusce sed sapien eleifend, sollicitudin neque non, faucibus est.
 
-![Center Aligned Image](/assets/images/example-center.jpg){: .align-center}
+![Center Aligned Image](/assets/images/example-center.svg){: .align-center}
 
-![Right Aligned Image](/assets/images/example-right.jpg){: .align-right}
+![Right Aligned Image](/assets/images/example-right.svg){: .align-right}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst.
 
 ### Figure mit Caption
 
-{% include figure image_path="/assets/images/example-figure.jpg" alt="Beispiel Figure" caption="Dies ist eine Figure mit Caption und Popup-Funktionalität." popup=true %}
+{% include figure image_path="/assets/images/example-figure.svg" alt="Beispiel Figure" caption="Dies ist eine Figure mit Caption und Popup-Funktionalität." popup=true %}
 
 ## Galleries
 

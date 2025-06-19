@@ -9,7 +9,7 @@ tags:
   - styling
   - buttons
 header:
-  teaser: /assets/images/buttons-teaser.jpg
+  teaser: /assets/images/buttons-teaser.svg
 excerpt: "Eine detaillierte Übersicht aller verfügbaren Button-Stile und deren Anwendung."
 ---
 

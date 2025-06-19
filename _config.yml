@@ -9,17 +9,51 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Jekyll Minimal Mistakes Showcase"
-title_separator: "-"
-subtitle: "Vollständige Übersicht aller visuellen Elemente"
-name: "Jekyll Showcase"
-description: "Eine umfassende Demonstrationsseite für alle verfügbaren visuellen Komponenten und Elemente des Jekyll Minimal Mistakes Themes."
+title: "Professional Corporate Website Showcase"
+title_separator: "|"
+subtitle: "Complete Jekyll Minimal Mistakes Demo"
+name: "Corporate Showcase"
+description: "A comprehensive demonstration of professional corporate website features using Jekyll Minimal Mistakes theme. Includes business components, accessibility features, PWA capabilities, and modern UI elements."
 url: "https://marcelehmann.github.io" # Replace with your actual GitHub Pages URL
 baseurl: "/GitHubPagesSample" # the subpath of your site, e.g. "/blog"
 teaser: "/assets/images/teaser-default.svg"
 logo: "/assets/images/logo.svg"
-masthead_title: "MM Showcase"
+masthead_title: "Corporate Showcase"
 breadcrumbs: true
+
+# SEO & Social
+locale: "en-US"
+repository: "username/jekyll-minimal-mistakes-showcase"
+og_image: "/assets/images/social-share.svg"
+twitter:
+  username: "corporateshowcase"
+facebook:
+  username: "corporateshowcase"
+social:
+  type: Organization
+  name: "Corporate Showcase"
+  links:
+    - "https://twitter.com/corporateshowcase"
+    - "https://github.com/username/jekyll-minimal-mistakes-showcase"
+    - "https://linkedin.com/company/corporate-showcase"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX" # Replace with your actual Google Analytics ID
+    anonymize_ip: true
+    
+# Search
+search: true
+search_full_content: true
+search_provider: "lunr"
+
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "corporate-showcase" # Replace with your Disqus shortname
 
 # Site Author
 author:
@@ -177,9 +211,15 @@ defaults:
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Custom CSS
+# Custom CSS and JS
 head_scripts:
   - /assets/css/custom.css
+  - /assets/css/cookie-consent.css
+  - /assets/css/notifications.css
+
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
+  - /assets/js/notifications.js
 
 # SEO
 locale: "de-DE"

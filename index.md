@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/splash-bg.jpg
+  overlay_image: /assets/images/splash-bg.svg
   actions:
     - label: "Showcase ansehen"
       url: "/showcase/"
@@ -19,7 +19,7 @@ intro:
   - excerpt: 'Diese Website demonstriert **alle verfügbaren visuellen Elemente** des Jekyll Minimal Mistakes Themes. Von einfachen Buttons bis hin zu komplexen Feature Rows - hier findest du alles an einem Ort. {: .text-center}'
 
 feature_row:
-  - image_path: /assets/images/feature-components.jpg
+  - image_path: /assets/images/feature-components.svg
     alt: "Visual Components"
     title: "Visuelle Komponenten"
     excerpt: "Buttons, Notice Boxes, Typography, Galleries und vieles mehr."
@@ -66,7 +66,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: /assets/images/feature-customization.jpg
+  - image_path: /assets/images/feature-customization.svg
     alt: "Customization"
     title: "Vollständig anpassbar"
     excerpt: 'Mit über **10 verschiedenen Skins**, unzähligen Konfigurationsoptionen und Custom CSS kannst du das Theme genau nach deinen Vorstellungen gestalten.'
