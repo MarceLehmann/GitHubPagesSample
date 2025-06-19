@@ -9,8 +9,8 @@ tags:
   - github-pages
   - demo
 header:
-  teaser: /assets/images/post1-teaser.jpg
-  overlay_image: /assets/images/post1-header.jpg
+  teaser: /assets/images/post1-teaser.svg
+  overlay_image: /assets/images/post1-header.svg
   overlay_filter: 0.4
 toc: true
 toc_sticky: true
@@ -64,7 +64,7 @@ Wird zu:
 
 Das Theme unterstützt verschiedene Bild-Layouts:
 
-![Links ausgerichtetes Bild](/assets/images/example-left.jpg){: .align-left}
+![Links ausgerichtetes Bild](/assets/images/example-left.svg){: .align-left}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst. Fusce sed sapien eleifend, sollicitudin neque non, faucibus est.
 

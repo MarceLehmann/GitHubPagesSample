@@ -26,28 +26,43 @@ feature_row:
     url: "/showcase/#components"
     btn_label: "Entdecken"
     btn_class: "btn--primary"
-  - image_path: /assets/images/feature-layouts.jpg
-    alt: "Layouts"
-    title: "Layout-Optionen"
-    excerpt: "Splash, Single, Archive, Collections und weitere Layout-Varianten."
-    url: "/showcase/#layouts"
-    btn_label: "Ansehen"
+  - image_path: /assets/images/advanced-teaser.svg
+    alt: "Advanced Components"
+    title: "Advanced Components"
+    excerpt: "Modern UI elements like progress bars, cards, enhanced forms, and interactive components."
+    url: "/advanced-components/"
+    btn_label: "Explore"
     btn_class: "btn--primary"
-  - image_path: /assets/images/feature-helpers.jpg
-    alt: "Helpers & Includes"
-    title: "Helpers & Includes"
-    excerpt: "Feature Rows, Galleries, Figure, Video Embeds und weitere Helpers."
-    url: "/showcase/#helpers"
-    btn_label: "Erkunden"
+  - image_path: /assets/images/business-teaser.svg
+    alt: "Business Components"
+    title: "Business Features"
+    excerpt: "Corporate-ready components including team sections, testimonials, and service showcases."
+    url: "/business-components/"
+    btn_label: "View Business"
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: /assets/images/feature-navigation.jpg
-    alt: "Navigation"
-    title: "Navigation & Menüs"
-    excerpt: 'Das Theme bietet flexible **Navigation-Optionen** inklusive Masthead, Breadcrumbs, Table of Contents und Sidebar-Menüs. Alle Elemente sind responsiv und vollständig anpassbar.'
-    url: "/showcase/#navigation"
-    btn_label: "Mehr erfahren"
+  - image_path: /assets/images/careers-teaser.svg
+    alt: "Careers"
+    title: "Careers & HR"
+    excerpt: 'Professional **careers section** with job listings, application forms, benefits showcase, and company culture presentation.'
+    url: "/careers/"
+    btn_label: "View Careers"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/partners-teaser.svg
+    alt: "Partnerships"
+    title: "Partners & Clients"
+    excerpt: 'Comprehensive **partnership pages** featuring client testimonials, success stories, and partnership inquiry forms.'
+    url: "/partners/"
+    btn_label: "See Partners"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/contact-teaser.svg
+    alt: "Contact"
+    title: "Contact & Support"
+    excerpt: 'Multi-channel **contact solutions** with forms, global offices, support channels, and response time commitments.'
+    url: "/contact/"
+    btn_label: "Contact Us"
+    btn_class: "btn--primary"
     btn_class: "btn--primary"
 
 feature_row3:

@@ -16,15 +16,15 @@ name: "Jekyll Showcase"
 description: "Eine umfassende Demonstrationsseite für alle verfügbaren visuellen Komponenten und Elemente des Jekyll Minimal Mistakes Themes."
 url: "https://marcelehmann.github.io" # Replace with your actual GitHub Pages URL
 baseurl: "/GitHubPagesSample" # the subpath of your site, e.g. "/blog"
-teaser: "/assets/images/teaser-default.jpg"
-logo: "/assets/images/logo.png"
+teaser: "/assets/images/teaser-default.svg"
+logo: "/assets/images/logo.svg"
 masthead_title: "MM Showcase"
 breadcrumbs: true
 
 # Site Author
 author:
   name: "Jekyll Showcaser"
-  avatar: "/assets/images/avatar.jpg"
+  avatar: "/assets/images/avatar.svg"
   bio: "Demonstriere alle verfügbaren visuellen Elemente und Komponenten des Minimal Mistakes Themes für Jekyll."
   location: "GitHub Pages"
   email: "demo@example.com"
@@ -176,6 +176,10 @@ defaults:
 # Theme
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Custom CSS
+head_scripts:
+  - /assets/css/custom.css
 
 # SEO
 locale: "de-DE"

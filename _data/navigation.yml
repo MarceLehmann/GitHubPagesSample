@@ -4,14 +4,20 @@ main:
     url: /
   - title: "Showcase"
     url: /showcase/
+  - title: "Advanced"
+    url: /advanced-components/
+  - title: "Business"
+    url: /business-components/
   - title: "Gallery"
     url: /gallery/
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Careers"
+    url: /careers/
+  - title: "Partners"
+    url: /partners/
+  - title: "Contact"
+    url: /contact/
   - title: "About"
     url: /about/
 
@@ -32,7 +38,17 @@ showcase_nav:
       - title: "Tables"
         url: /showcase/#tables
       - title: "Forms"
-        url: /showcase/#forms
+        url: /advanced-components/#forms--input-elements
+  - title: "Advanced Components"
+    children:
+      - title: "Custom Cards"
+        url: /advanced-components/#custom-cards
+      - title: "Progress Bars"
+        url: /advanced-components/#progress-indicators
+      - title: "Social Integration"
+        url: /advanced-components/#social-media-integration
+      - title: "Enhanced Notices"
+        url: /advanced-components/#advanced-notice-variations
   - title: "Layouts"
     children:
       - title: "Single"

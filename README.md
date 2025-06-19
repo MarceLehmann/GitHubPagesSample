@@ -1,17 +1,51 @@
 # Jekyll Minimal Mistakes Showcase
 
-Eine **vollständige Demonstration** aller visuellen Elemente des Jekyll Minimal Mistakes Themes. Diese Seite zeigt jeden verfügbaren Komponenten, Layout und Helper auf einer einzigen übersichtlichen Seite.
+Eine **vollständige Demonstration** aller visuellen Elemente des Jekyll Minimal Mistakes Themes. Diese Seite zeigt jeden verfügbaren Komponenten, Layout und Helper auf einer einzigen übersichtlichen Seite - perfekt für **professionelle Unternehmenswebsites**.
 
 ## 🎯 Was ist das?
 
 Diese Website ist ein **kompletter Showcase** des Jekyll Minimal Mistakes Themes mit:
 
 - ✅ **Alle visuellen Komponenten** (Buttons, Notice Boxes, etc.)
+- ✅ **Advanced UI Components** (Progress bars, Cards, Modern Forms)
+- ✅ **Business Features** (Team sections, Testimonials, Services)
+- ✅ **Corporate Pages** (Careers, Partnerships, Contact)
 - ✅ **Alle Layout-Optionen** (Splash, Single, Archive, etc.)  
 - ✅ **Alle Helper-Funktionen** (Feature Rows, Galleries, etc.)
-- ✅ **Deutsche Lokalisierung** 
+- ✅ **SVG-basierte Grafiken** für schnelle Ladezeiten
+- ✅ **Responsive Design** für alle Geräte
 - ✅ **GitHub Pages Ready**
-- ✅ **Vollständig responsiv**
+- ✅ **SEO Optimiert**
+
+## 🏢 Corporate Features
+
+### Careers & HR
+- Professional job listings with detailed descriptions
+- Employee benefits showcase with visual representations
+- Online application forms with file upload capabilities
+- Company culture and values presentation
+- Hiring process timeline and guidelines
+
+### Partnerships & Clients
+- Client testimonial showcase
+- Success story templates with metrics
+- Partnership inquiry forms
+- Client logo galleries
+- Partnership metrics and achievements
+
+### Contact & Support
+- Multi-channel contact options (Phone, Email, Chat, Global offices)
+- Contact forms with priority levels
+- Response time commitments and SLAs
+- Emergency contact procedures
+- Global office locations with local information
+
+### Advanced Components
+- Modern progress bars and statistics
+- Interactive cards and feature sections
+- Enhanced form styling and validation
+- Social media integration buttons
+- Newsletter signup components
 
 ## 🚀 Quick Start
 
@@ -34,20 +68,40 @@ bundle exec jekyll serve
 1. **Fork** dieses Repository
 2. **Rename** zu `username.github.io` (oder belasse den Namen für Project Pages)
 3. **Enable** GitHub Pages in den Repository Settings
-4. **Customize** die `_config.yml` mit deinen Daten
+4. **Update** `_config.yml` mit deiner baseurl (z.B. `/repository-name`)
+5. **Customize** die restlichen Konfigurationen
 
-### 3. Anpassung
+### 3. Anpassung für deine Firma
 
 **Wichtige Dateien zum Anpassen:**
 
-- `_config.yml` - Basis-Konfiguration und Site-Daten
-- `_data/navigation.yml` - Menü-Navigation
-- `assets/images/` - Alle Bilder ersetzen
-- `_pages/` - Seiten-Inhalte anpassen
+- `_config.yml` - Basis-Konfiguration, URLs, und Firmen-Daten
+- `_data/navigation.yml` - Hauptnavigation anpassen
+- `_pages/careers.md` - Job-Listings und Benefits aktualisieren
+- `_pages/partners.md` - Client-Logos und Testimonials
+- `_pages/contact.md` - Kontaktinformationen und Büros
+- `assets/images/` - SVGs mit deinem Branding ersetzen
 
 ## 📁 Projekt-Struktur
 
 ```
+├── _config.yml              # Haupt-Konfiguration
+├── _data/
+│   └── navigation.yml       # Menü-Navigation
+├── _pages/                  # Statische Seiten
+│   ├── showcase.md         # Komponenten-Showcase  
+│   ├── advanced-components.md # Modern UI Components
+│   ├── business-components.md # Business Features
+│   ├── careers.md          # Karriere-Seite
+│   ├── partners.md         # Partner & Kunden
+│   ├── contact.md          # Kontakt-Seite
+│   └── about.md            # Über uns
+├── _posts/                  # Blog Posts
+├── assets/
+│   ├── images/             # SVG-Grafiken
+│   └── css/
+│       └── custom.css      # Custom Styling
+└── index.md                # Homepage
 ├── _config.yml              # Haupt-Konfiguration
 ├── _data/
 │   └── navigation.yml        # Navigation-Menüs
