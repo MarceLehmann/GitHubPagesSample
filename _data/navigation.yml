@@ -18,6 +18,22 @@ main:
     url: /faq/
   - title: "Blog"
     url: /blog/
+  - title: "Design Systems"
+    children:
+      - title: "Fluent Design 2"
+        url: /fluent-design/
+      - title: "Tailwind CSS"
+        url: /tailwind-demo/
+      - title: "Material Design 3"
+        url: /material-design/
+      - title: "Bootstrap 5"
+        url: /bootstrap-demo/
+      - title: "CSS Grid & Flexbox"
+        url: /css-grid-flexbox/
+      - title: "Ant Design"
+        url: /ant-design/
+      - title: "Carbon Design"
+        url: /carbon-design/
   - title: "Contact"
     url: /contact/
 
